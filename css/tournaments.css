@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+.header{
+    /*filter: drop-shadow(0.942px 26.984px 6.5px rgba(0,0,0,0.36));*/
+}
+
+.tournament-list {
+    /*height: 323px;*/
+    width: 85%;
+    margin: 0 auto;
+}
+.tournament-item {
+    display: flex;
+    flex-direction: column;
+}
+.tournament-block {
+    position: relative;
+    z-index: 3;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    background-color:rgb(46, 49, 54);
+}
+.tournament-image {
+    height: 225px;
+    width: 447px;
+    display: flex;
+    background-color: #424242;
+    border-radius: 25px;
+}
+.tournament-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.warining {
+    width: 498px;
+    height: 81px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(40, 43, 48);
+    margin-bottom: 7px;
+    flex-direction: row;
+}
+.warning-icon {
+    height: 44px;
+    width: 50px;
+    /*margin-left: 24px;
+    margin-right: 14px;
+    margin-top: 14px;*/
+    margin: 0 20px;
+    display: flex;
+}
+.warning-icon > svg {
+    height: 100%;;
+}
+
+.warning-text {
+    width: 381px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.buttons-stage {
+    width: 498px;
+    height: 140px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(40, 43, 48);
+}
+.tournaments-item-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 31px;
+    padding-right: 31px;
+    margin-top: 17px;
+
+}
+.tournaments-item-button {
+    height: 60px;
+    width: 202px;
+    border-radius: 25px;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.tournaments-item-button > svg{
+    width: 40px;
+}
+
+.tournaments-item-button ~ .tournaments-item-button {
+    margin-left: 19px;
+}
+.blue-button {
+    background-color:rgb(56, 124, 249);
+}
+.green-button {
+    background-color:rgb(66, 189, 95);
+}
+.tournaments-item-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.stage-metric {
+    height: 22px;
+    width: 121px;
+    background-color:rgb(78, 78, 78);
+    display: flex;
+    border-radius: 25px;
+}
+.tournament-more-info {
+    height: 150px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 0 0 35px 35px;
+    background-color:rgb(46, 49, 54);
+    background: url(../multimedia/bg-more.png);
+    background-size: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -110px;
+    z-index: 0;
+    transition-duration: 1s;
+}
+
+.tournament-anim{
+    top: 0px;
+    transition-duration: 1s;
+}
+
+.tournament-info-button-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+}
+
+.tournament-info-button {
+    min-width: 150px;
+    height: 100%;
+    background-color: #2E3136;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournament-info-button:hover {
+    box-shadow: 2px 2px 20px #4E6A78, -2px -2px 20px #4E6A78;
+}
+
+.stick {
+    background-color: #97999B;
+    height: 4px;
+    width: 200px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+main{
+    font-family: 'Bakbak One', Regular;
+    color: #fff;
+}
+
+.participants-main{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.participants-box{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px 35px 0 0;
+    font-size: 48px;
+    width: 40%;
+    height: 60px;
+    background-color: #2E3136;
+}
+
+.participants-content{
+    padding: 10px;
+    height: 100vh;
+    width: 85%;
+    background-color: #2E3136;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.participants-element{
+    height: 80px;
+    width: 23%;
+    background-color: #202020;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.participants-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #414141;
+}
+
+.participants-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 16px;
+    margin-right: 20px;
+}
+
+
+.participants-text > p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.participants-text > .participants-title{
+    font-size: 19px;
+    color: #fff;
+}
+
+.title-big-news {
+    top: 67%;
+    left: 5%;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .title-big-news {
+        top: 75%;
+        left: 6%;
+    }
+
+    .title-big-news > .title-news {
+        font-size: 35px;
+    }
+
+    .title-big-news > .class-of-tank {
+        font-size: 17px;
+    }
+
+    .title-big-news > .subtitle > p {
+        font-size: 30px;
+    }
+}

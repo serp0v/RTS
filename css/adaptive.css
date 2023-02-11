@@ -1,0 +1,271 @@
+.dn{
+  display: none;
+}
+
+/* Header */
+
+@media (max-width: 800px) {
+  .menu{
+    left: calc(50% - 25px);
+    width: 182px;
+  }
+
+  .language-menu{
+    border-radius: 0px 0px 20px 20px;
+
+    left: calc(50% + 78px);
+    width: 50px;
+    padding: 5px 0;
+  }
+
+  .anim-menu{
+    top: 65px;
+  }
+
+  .anim-menu-language{
+    top: 65px;
+  }
+
+  .menu-item > svg{
+    height: 45px;
+    width: 45px;
+  }
+
+  .language-menu > .menu-item {
+      padding: 4px;
+  }
+
+  .header-container{
+    padding: 0 7px;
+    height: 65px;
+  }
+
+  .middle-nav > div {
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  .nav-burger > svg {
+    width: 32px;
+  }
+
+  .nav-social{
+    margin: 0 7px;
+    width: 100px;
+  }
+
+  .nav-social-item{
+    height: 50px;
+  }
+
+  .nav-social-item > svg{
+    height: 52%;
+  }
+
+  .nav-language{
+    width: 40px;
+  }
+
+  .nav-burger{
+    width: 40px;
+  }
+
+  .header-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+  }
+
+  .profile-image{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-profile-text{
+    display: none;
+  }
+
+  .logo-cont{
+    width: 50px;
+
+  }
+
+
+  .logo > img{
+    max-width: 100%;
+  }
+
+  .nav-language > svg {
+    width: 81%;
+    height: 100%;
+  }
+}
+
+
+/*Для главной страницы и списка турниров*/
+
+@media (max-width: 1200px) {
+
+  .title-news-list{
+    width: 200px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .main-grid{
+    margin: 0 20px;
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 25em;
+    grid-template-rows: 25em 25em 25em;
+    gap: 40px;
+  }
+
+  .big-news{
+    grid-area: auto;
+  }
+
+  .title-big-news > .title-news {
+      font-size: 35px;
+  }
+
+  .title-big-news > .class-of-tank {
+      font-size: 17px;
+  }
+
+  .title-big-news > .subtitle > p {
+      font-size: 30px;
+  }
+
+}
+
+/* Турниры */
+
+@media (max-width: 800px) {
+  .tournament-block {
+    height: 1000px;
+    flex-direction: column;
+    border-radius: 45px
+  }
+
+  .tournaments-item-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 27px 0;
+    height: 85%;
+  }
+
+  .tournaments-item-button ~ .tournaments-item-button {
+    margin-left: 0px;
+  }
+
+  .tournament-info {
+    width: 93%;
+    height: 55%;
+  }
+
+  .tournament-image {
+    margin: 4% 0;
+    border-radius: 45px;
+    width: 93%;
+    height: 38%;
+  }
+
+  .tournaments-item-button {
+    font-size: 40px;
+    height: 95px;
+    width: 80%;
+    border-radius: 35px;
+  }
+
+  .tournaments-item-button > svg {
+    width: 50px;
+    margin: 0 10px;
+  }
+
+  .warining {
+    border-radius: 35px;
+    width: 100%;
+    height: 25%;
+  }
+
+  .warning-icon {
+    height: 60px;
+    width: 85px;
+  }
+
+  .warning-text {
+    width: 540px;
+    font-size: 28px;
+
+  }
+
+  .buttons-stage {
+    border-radius: 35px;
+    margin-top: 4%;
+    width: 100%;
+    height: 60%;
+  }
+
+  .tournament-list {
+    width: 95%;
+
+  }
+
+  .tournament-more-info {
+    width: 100%;
+    height: 285px;
+    top: -245px;
+  }
+
+  .tournament-anim{
+    top: -40px;
+  }
+
+
+  .tournament-info-button-box {
+    margin-top: 55px;
+    height: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tournament-info-button {
+    margin: 5px;
+    min-width: 280px;
+    border-radius: 30px;
+    font-size: 24px;
+  }
+
+
+  .participants-content {
+    width: 93%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .participants-element {
+    width: 96%;
+    height: 200px;
+    border-radius: 40px;
+  }
+
+  .participants-logo {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+  }
+}
+
+
+
+
+
+

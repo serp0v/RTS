@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+.status{
+	font-family: 'Bakbak One', Regular;
+    color: #F73E3E;
+    height: 11%;
+    width: 24%;
+    position: relative;
+    top: 64%;
+    left: -5%;
+    background-color: #2E3136;
+    border-radius: 12px;
+    padding: 8px 20px;
+    line-height: 20px;
+    float: right;
+    font-size: 24px;
+}
+
+.date-box{
+    display: flex;
+    justify-content: center;
+	font-family: 'Bakbak One', Regular;
+	color: #fff;
+    float: right;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 78%;
+    left: -4%;
+    background-color: #2E3136;
+    border-radius: 12px;
+    padding: 8px 20px;
+}
+
+
+.date{
+    position: relative;
+    top: 10%;
+    left: 72%;
+    font-size: 24px;
+    text-shadow: 0 0 10px #fff;
+}
+
+.quantity{
+    position: relative;
+    top: -15%;
+    left: -25%;
+    font-size: 13px;
+    color: #74e081;
+    text-shadow: 0 0 10px#74e081;
+}
