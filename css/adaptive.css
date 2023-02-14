@@ -116,28 +116,61 @@
 
 @media (max-width: 800px) {
 
-  .main-grid{
-    margin: 0 20px;
+  .main-grid {
+    margin: 0px 5vw;
     grid-template-columns: repeat(1, 100%);
-    grid-auto-rows: 25em;
-    grid-template-rows: 25em 25em 25em;
-    gap: 40px;
+    grid-auto-rows: 50vw;
+    grid-template-rows: 50vw 50vw 50vw;
+    gap: 3vw;
   }
 
-  .big-news{
+  .main-container {
+    padding: 3vw 0;
+  }
+
+  .big-news {
     grid-area: auto;
+    border-radius: 6vw;
   }
 
   .title-big-news > .title-news {
-      font-size: 35px;
+    font-size: 5vw;
   }
 
   .title-big-news > .class-of-tank {
-      font-size: 17px;
+      font-size: 2.5vw;
+      line-height: 1vw;
   }
 
   .title-big-news > .subtitle > p {
-      font-size: 30px;
+      font-size: 5vw;
+  }
+
+  .news-list {
+    border-radius: 6vw;
+  }
+
+  .title-big-news{
+    line-height: 5vw;
+    top: 73%;
+    left: 4%;
+  }
+
+  .title-news-list {
+    width: 35vw;
+    height: 23%;
+    top: 67%;
+    line-height: 4vw;
+    padding: 0vw 1.5vw;
+    border-radius: 3vw;
+  }
+
+  .title-news-list > .title-news {
+    font-size: 5vw;
+  }
+
+  .title-news-list > .subtitle {
+    font-size: 2vw;
   }
 
 }
@@ -145,10 +178,38 @@
 /* Турниры */
 
 @media (max-width: 800px) {
+
+  .date-box{
+    top: 8%;
+    height: 11vw;
+    width: 11vw;
+  }
+
+  .date{
+    font-size: 5vw;
+  }
+
+  .quantity {
+    font-size: 2.5vw;
+    line-height: 0;
+  }
+
+
+  .status{
+    top: -13%;
+    width: 29%;
+    height: 13%;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+  }
+
   .tournament-block {
     height: 1000px;
     flex-direction: column;
-    border-radius: 45px
+    border-radius: 25px
   }
 
   .tournaments-item-buttons {
@@ -263,9 +324,3 @@
     border-radius: 50%;
   }
 }
-
-
-
-
-
-

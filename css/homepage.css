@@ -31,9 +31,6 @@ body {
     border-bottom:1px solid rgb(44, 46, 50);
     z-index: 10;
 }
-
-.main {
-}
 .header-container {
     padding-left: 10px;
     padding-right: 10px;
@@ -79,8 +76,6 @@ body {
 .svg {
     height: 27px;
     width: 27px;
-}
-.nav-burger > svg {
 }
 .menu {
     /* height: 50vh; */
@@ -193,8 +188,6 @@ body {
     margin-left: 10px;
 
 }
-.log-sign > div ~ .log-sign > div {
-}
 .nickname {
     /* margin-top: 2px; */
     /* margin-top: -3px; */
@@ -287,8 +280,6 @@ body {
 .title-big-news > .class-of-tank{
     display:inline-block;
     font-size: 12px;
-    float: right;
-
 }
 
 .title-big-news > .title-news{
