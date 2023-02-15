@@ -26,6 +26,8 @@ const inputPassword = document.querySelector('#inputPassword').value;
 const headerAuthorization = document.querySelector('#headerAuthorization');
 const authorizationOnclick = document.querySelector('#authorizationOnclick');
 
+authForm.addEventListener('submit', (e) => e.preventDefault())
+
 authorizationOnclick.onclick = () => {
     authForm.classList.toggle('dn');
     authForm.classList.toggle('anim-form')
