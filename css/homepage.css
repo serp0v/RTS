@@ -38,6 +38,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: relative;
 }
 .logo-cont {
     display: flex;
@@ -360,6 +362,82 @@ body {
 .menu-item > svg{
     width: 30px;
     height: 30px;
+}
+
+/* Auth form */
+
+.auth-btn {
+    font-family: 'Bakbak One';
+    color: #00A0FA;
+
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: .3s;
+}
+.auth-btn:hover {
+    color: #93d6fc;
+}
+.auth-btn:active {
+    transform: scale(0.9);
+}
+
+.auth-form {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    background: #2E3136;
+    border: none;
+}
+.auth-form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+}
+
+.auth-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.auth-form input {
+    padding: 5px 10px;
+
+    background: #424242;
+    border: none;
+    outline: none;
+
+    color: #fff;
+
+    transition: .3s;
+}
+.auth-form input:hover,
+.auth-form input:focus {
+    background: #393939;
+}
+
+.auth-form-btn {
+    margin-top: 20px;
+    padding: 7.5px 60px;
+
+    border: none;
+    border-radius: 15px;
+    background: #42BD5F;
+
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+
+    transition: .3s;
+}
+.auth-form-btn:hover {
+    background: #81df97;
 }
 
 

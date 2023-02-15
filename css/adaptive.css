@@ -324,3 +324,23 @@
     border-radius: 50%;
   }
 }
+
+/* Auth form */
+
+@media (max-width: 768px) {
+  .auth-btn {
+    font-size: 16px;
+  }
+  .auth-form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .auth-form label {
+    font-size: 18px;
+  }
+  .auth-btn {
+    font-size: 22px;
+  }
+}

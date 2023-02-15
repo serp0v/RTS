@@ -19,12 +19,15 @@ const headerProfile = document.querySelector('#headerProfile');
 //     authorization.classList.remove('dn');
 // };
 
-// const authForm = document.querySelector('#authForm');
-// const inputLogin = document.querySelector('#inputLogin').value;
-// const inputPassword = document.querySelector('#inputPassword').value;
+const authForm = document.querySelector('#authForm');
+const inputLogin = document.querySelector('#inputLogin').value;
+const inputPassword = document.querySelector('#inputPassword').value;
 
-// const headerAuthorization = document.querySelector('#headerAuthorization');
+const headerAuthorization = document.querySelector('#headerAuthorization');
+const authorizationOnclick = document.querySelector('#authorizationOnclick');
 
-// const authorizationOnclick = document.querySelector('#authorizationOnclick').onclick = () => {
-//     authForm.classList.remove('dn');
-// };
+authorizationOnclick.onclick = () => {
+    authForm.classList.toggle('dn');
+    authForm.classList.toggle('anim-form')
+
+};
