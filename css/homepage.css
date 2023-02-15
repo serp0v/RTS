@@ -278,8 +278,9 @@ body {
 }
 
 .title-big-news > .class-of-tank{
-    display:inline-block;
+    display:block;
     font-size: 12px;
+    float: right;
 }
 
 .title-big-news > .title-news{

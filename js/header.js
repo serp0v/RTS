@@ -11,12 +11,20 @@ const languageMenuButton = document.querySelector('#languageMenuButton').onclick
 };
 
 const headerProfile = document.querySelector('#headerProfile');
-// const authorization = document.querySelector('#authorization');
-// const authorizationOnclick = document.querySelector('#authorizationOnclick').onclick = () => {
-//     headerProfile.classList.remove('dn');
-//     authorization.classList.add('dn');
-// };
+
+// headerProfile.classList.remove('dn');
+// headerAuthorization.classList.add('dn');
 // const exit = document.querySelector('#exit').onclick = () => {
 //     headerProfile.classList.add('dn');
 //     authorization.classList.remove('dn');
+// };
+
+// const authForm = document.querySelector('#authForm');
+// const inputLogin = document.querySelector('#inputLogin').value;
+// const inputPassword = document.querySelector('#inputPassword').value;
+
+// const headerAuthorization = document.querySelector('#headerAuthorization');
+
+// const authorizationOnclick = document.querySelector('#authorizationOnclick').onclick = () => {
+//     authForm.classList.remove('dn');
 // };
