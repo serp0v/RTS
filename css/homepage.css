@@ -400,29 +400,65 @@ body {
 }
 
 .auth-form {
+    width: 360px;
+    padding: 0 57px 23px 57px;
+
     position: absolute;
-    top: 100%;
-    right: 0;
-
-    background: #2E3136;
+    top: 0%;
+    right: 0%;
+    z-index: -1;    
+    opacity: 0;
     border: none;
-}
-.auth-form fieldset {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
+    background: linear-gradient(0deg, #1F2025, #1F2025);
+
+    /* animation: fade-in 0.5s; */
+    transition: opacity .1s, top .3s;
+
+}
+.auth-form.active {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        top: 80%
+    }
+    100% {
+        opacity: 1;
+
+        top:100%;
+    }
+} */
+
+.auth-form fieldset {
+    padding: 0;
     border: none;
 }
 
 .auth-form label {
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    text-align: left;
+
+    margin-bottom: 9px;
 }
+.auth-form label:nth-child(2) {
+    margin-bottom: 17px;
+}
+
 .auth-form input {
-    padding: 5px 10px;
+    width: 100%;
+
+    padding: 4px 10px;
 
     background: #424242;
     border: none;
@@ -431,6 +467,8 @@ body {
     color: #fff;
 
     transition: .3s;
+
+    margin-top: 12px;
 }
 .auth-form input:hover,
 .auth-form input:focus {
@@ -438,8 +476,7 @@ body {
 }
 
 .auth-form-btn {
-    margin-top: 20px;
-    padding: 7.5px 60px;
+    padding: 3px 70px;
 
     border: none;
     border-radius: 15px;
@@ -453,6 +490,22 @@ body {
 }
 .auth-form-btn:hover {
     background: #81df97;
+}
+
+.auth-form label[for='inputPassword'] {
+    position: relative;
+}
+.password-visible {
+    position: absolute;
+    top: 66%;
+    right: 2%;
+
+    cursor: pointer;
+    z-index: 100;
+
+    border:none;
+    background: none;
+    /* transform: translateY(-50%); */
 }
 
 
