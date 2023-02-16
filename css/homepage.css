@@ -182,6 +182,18 @@ body {
     float: right;
     align-items: center;
 }
+.auth-btn {
+    color: white;
+}
+.guest {
+    justify-content: center;
+    text-align: center;
+}
+/* .log-in {
+    display: flex;
+    text-align: end;
+    justify-content: center;
+} */
 .log-sign > div {
     display: flex;
     font-size: 24px;
@@ -201,7 +213,7 @@ body {
     font-size: 11px;
     display: flex;
     margin-top: -6px;
-    color: #ABE0FC;
+    /* color: #ABE0FC; */
 }
 .main-container {
     padding-top: 40px;
@@ -368,8 +380,7 @@ body {
 
 .auth-btn {
     font-family: 'Bakbak One';
-    color: #00A0FA;
-
+    color: #fff;
     background: none;
     border: none;
     outline: none;

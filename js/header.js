@@ -19,15 +19,15 @@ const headerProfile = document.querySelector('#headerProfile');
 //     authorization.classList.remove('dn');
 // };
 
-const authForm = document.querySelector('#authForm');
-const inputLogin = document.querySelector('#inputLogin').value;
-const inputPassword = document.querySelector('#inputPassword').value;
+// const authForm = document.querySelector('#authForm');
+// const inputLogin = document.querySelector('#inputLogin').value;
+// const inputPassword = document.querySelector('#inputPassword').value;
 
-const headerAuthorization = document.querySelector('#headerAuthorization');
-const authorizationOnclick = document.querySelector('#authorizationOnclick');
+// const headerAuthorization = document.querySelector('#headerAuthorization');
+// const authorizationOnclick = document.querySelector('#authorizationOnclick');
 
-authForm.addEventListener('submit', (e) => e.preventDefault())
+// authForm.addEventListener('submit', (e) => e.preventDefault())
 
-authorizationOnclick.onclick = () => {
-    authForm.classList.toggle('dn');
-};
+// authorizationOnclick.onclick = () => {
+//     authForm.classList.toggle('dn');
+// };
