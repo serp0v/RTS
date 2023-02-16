@@ -11,6 +11,7 @@
 body {
     /*background: linear-gradient(180deg, #2E3136 0%, #A8D6C9 100%);/* на всякий случай*/
     background-color:rgb(33, 33, 33);
+    min-width: 340px;
 }
 .wrapper {
     width: 100%;
@@ -22,9 +23,11 @@ body {
 }
 .header, .footer, .main {
     width: 100%;
+    min-width: 340px;
 }
 [class$="-container"] {
     max-width: 1200px;
+    min-width: 340px;
     margin: 0 auto;
 }
 .header {
@@ -464,8 +467,8 @@ body {
         grid-template-areas: 
             "big-news"
             "news-list news-list"
-            "news-list news-list"; 
-    }
+            "news-list news-list";
+        }
 }
 @media (max-width: 799.99px) {
     /* .main-grid {
@@ -482,7 +485,7 @@ body {
     .main-grid > div ~ .main-grid > div {
         margin-top: 32px;
     } */
-    body,html {
+    /* body,html {
         overflow-x: inherit;
-    }
+    } */
 }

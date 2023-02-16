@@ -180,7 +180,6 @@
   }
 
 }
-
 /* Турниры */
 
 @media (max-width: 800px) {
@@ -305,7 +304,7 @@
 
   .tournament-info-button {
     margin: 5px;
-    min-width: 280px;
+    min-width: 240px;
     border-radius: 30px;
     font-size: 24px;
   }
