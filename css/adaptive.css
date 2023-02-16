@@ -3,7 +3,12 @@
 }
 
 /* Header */
-
+.header-plus-sign {
+  display: none;
+  height: 60%;
+  width: 60%;
+  fill: aliceblue;
+}
 @media (max-width: 800px) {
   .menu{
     left: calc(50% - 25px);
@@ -328,9 +333,10 @@
 
 /* Auth form */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
+@media (max-width: 800px) {
   .auth-btn {
-    font-size: 16px;
+    display: none;
   }
   .auth-form {
     width: 100%;
