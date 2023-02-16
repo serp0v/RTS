@@ -33,7 +33,6 @@ authForm.addEventListener('submit', (e) => e.preventDefault())
 
 eventListenerForArray(authorizationOnclick, 'click', (e) => {
     if (e.target === e.currentTarget) {
-        // authForm.classList.toggle("dn");
         authForm.classList.toggle('active');
     }  
 })
@@ -44,25 +43,12 @@ isVisibleBtn.addEventListener('click', (e) => {
         inputPassword.setAttribute('type', 'text')
         e.target.classList.remove('visible');
         isVisibleImg.setAttribute('src', '/multimedia/hidden.svg')
-
-        // changeInputVisibility(true, inputPassword);
     } else {
         inputPassword.setAttribute('type', 'password')
         e.target.classList.add('visible');
         isVisibleImg.setAttribute('src', '/multimedia/visible.svg')
-
-        // changeInputVisibility(false, inputPassword);
     }
 })
-
-
-function changeInputVisibility(isVisible, input) {
-    if (isVisible) {
-        input.setAttibute('type', 'text')
-    } else {
-        input.setAttibute('type', 'password')
-    }
-}
 
 function eventListenerForArray (arr, eventType, cb) {
     arr.forEach(item => {
