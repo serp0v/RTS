@@ -339,14 +339,15 @@
   }
   .auth-form {
     width: 100%;
+    transform: translate(0);
   }
 }
 
 @media (min-width: 1440px) {
-  .auth-form label {
-    font-size: 18px;
+  .auth-form {
+    transform: translateX(25%);
   }
-  .auth-btn {
+  /* .auth-btn {
     font-size: 22px;
-  }
+  } */
 }
