@@ -264,15 +264,7 @@ body {
 .show-more > svg {
     margin-top: -12px;
 }
-.footer-container {
-    height: 60px;
-    border: 1px solid rgb(255, 255, 255);
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 121px;
-}
+
 .copyright {
     font-size: 24px;
 }
@@ -404,7 +396,7 @@ body {
     padding: 0 57px 23px 57px;
 
     position: absolute;
-    top: 0%;
+    top: -500%;
     right: 0%;
     z-index: -1;    
     opacity: 0;
