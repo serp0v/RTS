@@ -1,3 +1,5 @@
+// menu
+
 const burgerMenu = document.querySelector('#burgerMenu');
 const gear = document.querySelector('#gear');
 const burgerMenuButton = document.querySelector('#burgerMenuButton').onclick = () => {
@@ -10,17 +12,18 @@ const languageMenuButton = document.querySelector('#languageMenuButton').onclick
     languageMenu.classList.toggle('anim-menu-language');
 };
 
-const headerProfile = document.querySelector('#headerProfile');
+// authorization
 
-// headerProfile.classList.remove('dn');
-// headerAuthorization.classList.add('dn');
-// const exit = document.querySelector('#exit').onclick = () => {
-//     headerProfile.classList.add('dn');
-//     authorization.classList.remove('dn');
-// };
+const headerProfile = document.querySelector('#headerProfile');
+const nickname = document.querySelector('.nickname');
+
+const exit = document.querySelector('#exit').onclick = () => {
+    headerAuthorization.classList.remove('dn');
+    headerProfile.classList.add('dn');
+};
 
 const authForm = document.querySelector('#authForm');
-const inputLogin = document.querySelector('#inputLogin');
+let inputLogin = document.querySelector('#inputLogin').value;
 const inputPassword = document.querySelector('#inputPassword');
 
 const isVisibleBtn = document.querySelector('.password-visible');
@@ -29,7 +32,11 @@ const isVisibleImg = document.querySelector('.password-visible img');
 const headerAuthorization = document.querySelector('#headerAuthorization');
 const authorizationOnclick = Array.from(document.querySelectorAll('.authorizationOnclick'))
 
-authForm.addEventListener('submit', (e) => e.preventDefault())
+authForm.addEventListener('submit', (e) => {
+    // headerAuthorization.classList.add('dn');
+    // headerProfile.classList.remove('dn');
+    e.preventDefault();
+})
 
 eventListenerForArray(authorizationOnclick, 'click', (e) => {
     if (e.target === e.currentTarget) {

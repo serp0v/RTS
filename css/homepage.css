@@ -393,7 +393,7 @@ body {
 
 .auth-form {
     width: 360px;
-    padding: 0 57px 23px 57px;
+    padding: 10px 57px 23px 57px;
 
     position: absolute;
     top: -500%;
