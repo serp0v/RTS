@@ -79,25 +79,25 @@ const highlighter = (className, needsRemoval) => {
       if (needsRemoval) {
         let alreadyActive = false;
         //If currently clicked button is already active
-        if (button.classList.contains("active")) {
+        if (button.classList.contains("activeFx")) {
           alreadyActive = true;
         }
         //Remove highlight from other buttons
         highlighterRemover(className);
         if (!alreadyActive) {
           //highlight clicked button
-          button.classList.add("active");
+          button.classList.add("activeFx");
         }
       } else {
         //if other buttons can be highlighted
-        button.classList.toggle("active");
+        button.classList.toggle("activeFx");
       }
     });
   });
 };
 const highlighterRemover = (className) => {
   className.forEach((button) => {
-    button.classList.remove("active");
+    button.classList.remove("activeFx");
   });
 };
 window.onload = initializer();
