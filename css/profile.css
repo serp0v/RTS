@@ -23,6 +23,8 @@
   width: 70%;
 
   display: flex;
+  gap: 20px;
+
 }
 
 .profile-info {
@@ -143,8 +145,6 @@
 
 .profile-line {
   width: 100%;
-
-  /* padding: ; */
 
   display: flex;
   justify-content: center;
