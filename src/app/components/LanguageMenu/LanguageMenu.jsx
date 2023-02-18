@@ -8,18 +8,18 @@ const LanguageMenu = () => {
 
   return (
     <div onClick={toggleOpenStatus} className="nav-language">
-      <img src="/src/app/assets/language.svg" alt="" />
+      <img src="/public/assets/language.svg" alt="" />
 
       <PullOut isOpen={isOpen}>
         <div className="language-menu">
           <div className="menu-item">
-            <img src="/src/app/assets/russia.svg" alt="" />
+            <img src="/public/assets/russia.svg" alt="" />
           </div>
           <div className="menu-item">
-            <img src="/src/app/assets/uk.svg" alt="" />
+            <img src="/public/assets/uk.svg" alt="" />
           </div>
           <div className="menu-item">
-            <img src="/src/app/assets/ua.svg" alt="" />
+            <img src="/public/assets/ua.svg" alt="" />
           </div>
         </div>
       </PullOut>

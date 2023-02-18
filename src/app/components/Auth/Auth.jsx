@@ -12,7 +12,7 @@ const Auth = () => {
       <div className="header-profile guest">
         <img
           className="header-plus-sign"
-          src="/src/app/assets/sign.svg"
+          src="/public/assets/sign.svg"
           alt=""
           onClick={toggleOpenStatus}
         />

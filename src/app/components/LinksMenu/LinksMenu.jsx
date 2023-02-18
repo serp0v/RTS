@@ -9,7 +9,7 @@ const LinksMenu = () => {
 
   return (
     <div onClick={toggleOpenStatus} className="nav-links">
-      <img src="/src/app/assets/menu.svg" alt="" />
+      <img src="/public/assets/menu.svg" alt="" />
 
       <PullOut isOpen={isOpen}>
         <div id="burgerMenu" className="menu">

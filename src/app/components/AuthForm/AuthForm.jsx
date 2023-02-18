@@ -12,8 +12,8 @@ const AuthForm = ({ isOpen }) => {
 
   const imgClickHanlder = (e) => {
     if (visible)
-      e.currentTarget.setAttribute("src", "/src/app/assets/visible.svg");
-    else e.currentTarget.setAttribute("src", "/src/app/assets/hidden.svg");
+      e.currentTarget.setAttribute("src", "/public/assets/visible.svg");
+    else e.currentTarget.setAttribute("src", "/public/assets/hidden.svg");
     setVisible(!visible);
   };
 
@@ -40,7 +40,7 @@ const AuthForm = ({ isOpen }) => {
             <button className="password-visible visible">
               <img
                 onClick={imgClickHanlder}
-                src="/src/app/assets/visible.svg"
+                src="/public/assets/visible.svg"
                 alt=""
               />
             </button>
