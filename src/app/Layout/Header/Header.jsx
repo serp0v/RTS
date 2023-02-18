@@ -9,6 +9,7 @@ import ds from "../../../assets/ds.svg";
 import tg from "../../../assets/tg.svg";
 
 import "./Header.css";
+import "./Header.adaptive.css";
 
 const Header = () => {
   return (

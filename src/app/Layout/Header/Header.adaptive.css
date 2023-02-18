@@ -4,6 +4,10 @@
     height: 65px;
   }
 
+  .middle-nav {
+    width: 50%;
+    justify-self: center;
+  }
   .middle-nav > div {
     height: 40px;
     border-radius: 15px;
@@ -22,10 +26,10 @@
   }
 
   .logo-cont {
-    width: 50px;
+    width: 25%;
   }
 
   .logo > img {
-    max-width: 100%;
+    max-width: 60%;
   }
 }

@@ -1,8 +1,13 @@
 @media (max-width: 800px) {
+  .auth {
+    width: auto;
+  }
+
   .header-profile {
-    height: 50px;
     width: 50px;
+    height: 50%;
     border-radius: 50%;
+    padding: 10px;
   }
 
   .header-plus-sign {
