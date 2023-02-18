@@ -1,0 +1,23 @@
+.pull-out-menu {
+  position: absolute;
+  top: -300%;
+  z-index: -1;
+
+  transition: top 1s;
+}
+.pull-out-menu.left {
+  left: 0;
+}
+.pull-out-menu.right {
+  right: 0;
+}
+
+.pull-out-menu.open {
+  top: 100%;
+}
+
+.pull-out-menu.transitioned {
+  z-index: 1;
+}
+
+/* TODO: исправить баг с выплыванием под нижним блоком! */

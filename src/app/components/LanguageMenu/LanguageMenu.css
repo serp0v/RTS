@@ -1,0 +1,48 @@
+.nav-language {
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-size: 20px;
+
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-language > img {
+  width: 40px;
+  transition: 0.3s;
+}
+.nav-language:active > img {
+  transform: scale(0.8);
+}
+.nav-language:hover {
+  background: #2e3136;
+}
+
+.language-menu {
+  background-color: rgb(46, 49, 54);
+  padding: 5px;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.menu-item {
+  background-color: rgb(46, 49, 54);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.menu-item:hover {
+  filter: brightness(150%);
+}
+
+.menu-item > img {
+  width: 50px;
+  height: 50px;
+}
