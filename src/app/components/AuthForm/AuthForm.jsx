@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import PullOut from "../PullOut/PullOut";
 
 import visibleImg from "../../../assets/visible.svg";
+import hiddenImg from "../../../assets/hidden.svg";
 
 import "./AuthForm.css";
 import "./AuthForm.adaptive.css";
@@ -13,9 +14,8 @@ const AuthForm = ({ isOpen }) => {
   const [visible, setVisible] = useState(false);
 
   const imgClickHanlder = (e) => {
-    if (visible)
-      e.currentTarget.setAttribute("src", "/public/assets/visible.svg");
-    else e.currentTarget.setAttribute("src", "/public/assets/hidden.svg");
+    if (visible) e.currentTarget.setAttribute("src", visibleImg);
+    else e.currentTarget.setAttribute("src", hiddenImg);
     setVisible(!visible);
   };
 
