@@ -1,0 +1,31 @@
+@media (max-width: 800px) {
+  .header-container {
+    padding: 0 7px;
+    height: 65px;
+  }
+
+  .middle-nav > div {
+    height: 40px;
+    border-radius: 15px;
+  }
+  .nav-social {
+    margin: 0 7px;
+    width: 100px;
+  }
+
+  .nav-social-item {
+    height: 50px;
+  }
+
+  .nav-social-item > img {
+    height: 52%;
+  }
+
+  .logo-cont {
+    width: 50px;
+  }
+
+  .logo > img {
+    max-width: 100%;
+  }
+}
