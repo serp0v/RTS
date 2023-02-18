@@ -3,6 +3,11 @@ import Auth from "../../components/Auth/Auth";
 import LanguageMenu from "../../components/LanguageMenu/LanguageMenu";
 import LinksMenu from "../../components/LinksMenu/LinksMenu";
 
+import logo from "../../../assets/logo.png";
+import yt from "../../../assets/yt.svg";
+import ds from "../../../assets/ds.svg";
+import tg from "../../../assets/tg.svg";
+
 import "./Header.css";
 
 const Header = () => {
@@ -12,7 +17,7 @@ const Header = () => {
         <nav className="header-container">
           <div className="logo-cont">
             <div className="logo">
-              <img src="/public/assets/logo.png" alt="" />
+              <img src={logo} alt="" />
             </div>
           </div>
 
@@ -24,16 +29,16 @@ const Header = () => {
                 to="https://www.youtube.com/channel/UC15bNHoYrAsQKRryzAYUTlA"
                 className="nav-social-item"
               >
-                <img src="/public/assets/yt.svg" alt="" />
+                <img src={yt} alt="" />
               </Link>
               <Link
                 to="https://discord.com/invite/cZa9efxJCT"
                 className="nav-social-item"
               >
-                <img src="/public/assets/ds.svg" alt="" />
+                <img src={ds} alt="" />
               </Link>
               <Link to="https://t.me/IRTanks" className="nav-social-item">
-                <img src="/public/assets/tg.svg" alt="" />
+                <img src={tg} alt="" />
               </Link>
             </div>
 

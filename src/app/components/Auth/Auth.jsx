@@ -1,6 +1,8 @@
 import AuthForm from "../AuthForm/AuthForm";
 import { useOpen } from "../../utils/hooks";
 
+import sign from "../../../assets/sign.svg";
+
 import "./Auth.css";
 import "./Auth.adaptive.css";
 
@@ -12,7 +14,7 @@ const Auth = () => {
       <div className="header-profile guest">
         <img
           className="header-plus-sign"
-          src="/public/assets/sign.svg"
+          src={sign}
           alt=""
           onClick={toggleOpenStatus}
         />

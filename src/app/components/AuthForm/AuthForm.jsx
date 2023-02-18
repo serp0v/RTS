@@ -2,6 +2,8 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import PullOut from "../PullOut/PullOut";
 
+import visibleImg from "../../../assets/visible.svg";
+
 import "./AuthForm.css";
 import "./AuthForm.adaptive.css";
 
@@ -38,11 +40,7 @@ const AuthForm = ({ isOpen }) => {
               id="inputPassword"
             />
             <button className="password-visible visible">
-              <img
-                onClick={imgClickHanlder}
-                src="/public/assets/visible.svg"
-                alt=""
-              />
+              <img onClick={imgClickHanlder} src={visibleImg} alt="" />
             </button>
           </label>
           <button type="submit" className="auth-form-btn">

@@ -2,6 +2,8 @@ import { useOpen } from "../../utils/hooks";
 import { Link } from "react-router-dom";
 import PullOut from "../PullOut/PullOut";
 
+import menu from "../../../assets/menu.svg";
+
 import "./LinkMenu.css";
 
 const LinksMenu = () => {
@@ -9,7 +11,7 @@ const LinksMenu = () => {
 
   return (
     <div onClick={toggleOpenStatus} className="nav-links">
-      <img src="/public/assets/menu.svg" alt="" />
+      <img src={menu} alt="" />
 
       <PullOut isOpen={isOpen}>
         <div id="burgerMenu" className="menu">

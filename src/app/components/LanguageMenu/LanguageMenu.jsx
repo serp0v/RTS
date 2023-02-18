@@ -1,5 +1,9 @@
 import { useOpen } from "../../utils/hooks";
 import PullOut from "../PullOut/PullOut";
+import lang from "../../../assets/language.svg";
+import russia from "../../../assets/russia.svg";
+import uk from "../../../assets/uk.svg";
+import ua from "../../../assets/ua.svg";
 
 import "./LanguageMenu.css";
 
@@ -8,18 +12,18 @@ const LanguageMenu = () => {
 
   return (
     <div onClick={toggleOpenStatus} className="nav-language">
-      <img src="/public/assets/language.svg" alt="" />
+      <img src={lang} alt="" />
 
       <PullOut isOpen={isOpen}>
         <div className="language-menu">
           <div className="menu-item">
-            <img src="/public/assets/russia.svg" alt="" />
+            <img src={russia} alt="" />
           </div>
           <div className="menu-item">
-            <img src="/public/assets/uk.svg" alt="" />
+            <img src={uk} alt="" />
           </div>
           <div className="menu-item">
-            <img src="/public/assets/ua.svg" alt="" />
+            <img src={ua} alt="" />
           </div>
         </div>
       </PullOut>
