@@ -6,6 +6,7 @@ import Admin from "./pages/Admin/Admin";
 import Layout from "./Layout";
 
 import "./css/reset.css";
+import "./css/index.css";
 
 const App = () => {
   return (
