@@ -1,0 +1,14 @@
+@media (max-width: 550px) {
+  .match img {
+    display: none;
+  }
+  .player-nickname {
+    font-size: 16px;
+  }
+  .player-type {
+    font-size: 14px;
+  }
+  .score {
+    font-size: 20px;
+  }
+}
