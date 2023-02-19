@@ -95,11 +95,10 @@
   }
   .logo-cont{
     width: 50px;
-
   }
 
 
-  .logo > img{
+  .logo > a > img{
     max-width: 100%;
   }
 
