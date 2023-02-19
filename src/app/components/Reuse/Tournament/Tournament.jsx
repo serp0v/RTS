@@ -1,6 +1,8 @@
+import PropTypes from "prop-types";
+
 import "./Tournament.css";
 
-const Tournament = () => {
+const Tournament = ({ date }) => {
   return (
     <div className="tournament">
       <div className="tournament-title">
@@ -12,8 +14,18 @@ const Tournament = () => {
           <p>2-2</p>
         </div>
       </div>
+      {date ? (
+        <div className="date-box">
+          <p className="date">{date.date}</p>
+          <p className="quantity">{date.quantity}</p>
+        </div>
+      ) : null}
     </div>
   );
+};
+
+Tournament.propTypes = {
+  date: PropTypes.object,
 };
 
 export default Tournament;

@@ -1,4 +1,4 @@
-import Tournament from "../../components/Home/Tournament/Tournament";
+import Tournament from "../../components/Reuse/Tournament/Tournament";
 import New from "../../components/Home/New/New";
 
 import showMore from "../../../assets/show-more.svg";
