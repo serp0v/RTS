@@ -355,3 +355,82 @@
     font-size: 22px;
   }
 }
+
+
+/* profile page */
+
+@media (max-width: 1024px) {
+  .profile {
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .profile-img {
+    width: 50%;
+    height: 150px;
+  }
+  .profile-info-block {
+    width: 100%;
+  }
+  .profile-info {
+    width: 100%;
+    margin: 0;
+  }
+  .profile-awards {
+    width: 100%;
+  }
+  .profile-line {
+    padding: 15px;
+  } 
+
+  .player-nickname{
+    font-size: 24px;
+  }
+  .player-type {
+    font-size: 14px;
+  }
+  .score {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-info-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-row, .subtitle-row {
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .matches {
+    padding: 15px 10px;
+  }
+  .match {
+    padding: 0px;
+    margin: 10px 0;
+  }
+  .match img {
+    width: 100%;
+  }
+  
+  .player-nickname{
+    font-size: 16px;
+  }
+  .player-type {
+    font-size: 14px;
+  }
+  .score {
+    margin: 0 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .match img {
+    display: none;
+  }
+}
