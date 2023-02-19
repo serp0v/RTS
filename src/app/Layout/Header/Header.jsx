@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Auth from "../../components/Auth/Auth";
-import LanguageMenu from "../../components/LanguageMenu/LanguageMenu";
-import LinksMenu from "../../components/LinksMenu/LinksMenu";
+import Auth from "../../components/Header/Auth/Auth";
+import LanguageMenu from "../../components/Header/LanguageMenu/LanguageMenu";
+import LinksMenu from "../../components/Header/LinksMenu/LinksMenu";
 
 import logo from "../../../assets/logo.png";
 import yt from "../../../assets/yt.svg";

@@ -1,7 +1,7 @@
+import { useOpen } from "../../../utils/hooks";
 import AuthForm from "../AuthForm/AuthForm";
-import { useOpen } from "../../utils/hooks";
 
-import sign from "../../../assets/sign.svg";
+import sign from "../../../../assets/sign.svg";
 
 import "./Auth.css";
 import "./Auth.adaptive.css";

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
-import PullOut from "../PullOut/PullOut";
+import PullOut from "../../Reuse/PullOut/PullOut";
 
-import visibleImg from "../../../assets/visible.svg";
-import hiddenImg from "../../../assets/hidden.svg";
+import visibleImg from "../../../../assets/visible.svg";
+import hiddenImg from "../../../../assets/hidden.svg";
 
 import "./AuthForm.css";
 import "./AuthForm.adaptive.css";

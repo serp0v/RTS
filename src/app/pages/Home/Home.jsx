@@ -1,9 +1,10 @@
+import Tournament from "../../components/Home/Tournament/Tournament";
+import New from "../../components/Home/New/New";
+
 import showMore from "../../../assets/show-more.svg";
 
 import "./Home.css";
 import "./Home.adaptive.css";
-import Tournament from "../../components/Tournament/Tournament";
-import New from "../../components/New/New";
 
 const news = [
   { title: "Hello world", subtitle: "World is mine", id: Math.random() * 100 },
