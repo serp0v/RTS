@@ -1,0 +1,25 @@
+.header-video {
+    width: 100%;
+}
+.header-video-item {
+    /* height: 650px; */
+    height: calc(100vh - 80px);
+    margin-top: -78px;
+    background-color: #000000;
+    /* background-color: #d6f5ff; */
+    display: flex;
+}
+.download-game {
+    border: 2px solid #ffffff;
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: calc(70%);
+    transform: translate(-50%, -50%);background-color: inherit;
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    /* margin-bottom: 20%; */
+}

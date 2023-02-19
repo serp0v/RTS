@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 * {
-
     font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -509,7 +508,21 @@ body {
     /* transform: translateY(-50%); */
 }
 
-
+.footer-wrapper {
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Bakbak One', sans-serif;
+}
 
 @media (max-width: 1240px) {
     .main-grid {
