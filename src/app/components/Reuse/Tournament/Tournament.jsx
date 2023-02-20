@@ -1,31 +1,43 @@
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import "./Tournament.css";
 
-const Tournament = ({ date }) => {
+const Tournament = ({ tournament = {}, date, style }) => {
+  const {
+    id = 0,
+    title = "SUKA",
+    tankClass = "SUKA",
+    subtitle = "SUKA",
+  } = tournament;
+
   return (
-    <div className="tournament">
-      <div className="tournament-title">
-        <p className="title-news">
-          Firebird Reborn <span className="tank-class">HF WF</span>
-        </p>
-        <div className="subtitle">
-          <p>Sandbox</p>
-          <p>2-2</p>
+    <Link to={`/tournaments/${id}`}>
+      <div className="tournament" style={style}>
+        <div className="tournament-title">
+          <p className="title-news">
+            {title}
+            <span className="tank-class">{tankClass}</span>
+          </p>
+          <div className="subtitle">
+            <p>{subtitle}</p>
+          </div>
         </div>
+        {date ? (
+          <div className="date-box">
+            <p className="date">{date.date}</p>
+            <p className="quantity">{date.quantity}</p>
+          </div>
+        ) : null}
       </div>
-      {date ? (
-        <div className="date-box">
-          <p className="date">{date.date}</p>
-          <p className="quantity">{date.quantity}</p>
-        </div>
-      ) : null}
-    </div>
+    </Link>
   );
 };
 
 Tournament.propTypes = {
+  tournament: PropTypes.object,
   date: PropTypes.object,
+  style: PropTypes.object,
 };
 
 export default Tournament;

@@ -27,7 +27,7 @@
 .tank-class {
   position: absolute;
   top: 0;
-  right: -25%;
+  right: -32px;
   display: block;
   font-size: 12px;
   float: right;

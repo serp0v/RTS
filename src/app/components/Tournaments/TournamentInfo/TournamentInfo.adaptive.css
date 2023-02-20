@@ -1,0 +1,33 @@
+@media (max-width: 1000px) {
+  .tournament-block {
+    flex-direction: column;
+  }
+  .warning {
+    width: 70%;
+  }
+  .tournament-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .tournament-info {
+    width: 100%;
+  }
+  .tournament-more-info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .tournament-block {
+    width: 100%;
+    padding: 1rem;
+  }
+  .tournament-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .warning {
+    width: 100%;
+  }
+}
