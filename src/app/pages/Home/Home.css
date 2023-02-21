@@ -1,0 +1,37 @@
+.main-container {
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.show-more {
+  width: 150px;
+
+  margin: 1rem auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+
+  background-color: rgb(46, 49, 54);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.show-more:hover {
+  background: rgb(77, 79, 80);
+}
+.show-more:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,30 @@
+@media (max-width: 800px) {
+  .middle-nav {
+    width: 50%;
+    justify-self: center;
+  }
+  .middle-nav > div {
+    height: 40px;
+    border-radius: 15px;
+  }
+  .nav-social {
+    margin: 0 7px;
+    width: 100px;
+  }
+
+  .nav-social-item {
+    height: 50px;
+  }
+
+  .nav-social-item > img {
+    height: 52%;
+  }
+
+  .logo-cont {
+    width: 25%;
+  }
+
+  .logo > img {
+    max-width: 60%;
+  }
+}

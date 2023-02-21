@@ -1,0 +1,86 @@
+.auth-form {
+  width: 360px;
+  padding: 10px 57px 23px 57px;
+
+  z-index: auto;
+  border: none;
+
+  background: linear-gradient(0deg, #1f2025, #1f2025);
+
+  transition: opacity 0.3s, top 0.3s;
+}
+.auth-form.open {
+  opacity: 1;
+}
+
+.auth-form fieldset {
+  padding: 0;
+  border: none;
+}
+
+.auth-form label {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: left;
+
+  margin-bottom: 9px;
+}
+.auth-form label:nth-child(2) {
+  margin-bottom: 17px;
+}
+
+.auth-form input {
+  width: 100%;
+
+  padding: 4px 10px;
+
+  background: #424242;
+  border: none;
+  outline: none;
+
+  color: #fff;
+
+  transition: 0.3s;
+
+  margin-top: 12px;
+}
+.auth-form input:hover,
+.auth-form input:focus {
+  background: #393939;
+}
+
+.auth-form-btn {
+  padding: 3px 70px;
+
+  border: none;
+  border-radius: 15px;
+  background: #42bd5f;
+
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+
+  transition: 0.3s;
+}
+.auth-form-btn:hover {
+  background: #81df97;
+}
+
+.auth-form label[for="inputPassword"] {
+  position: relative;
+}
+.password-visible {
+  position: absolute;
+  top: 66%;
+  right: 2%;
+
+  cursor: pointer;
+  z-index: 100;
+
+  border: none;
+  background: none;
+  /* transform: translateY(-50%); */
+}
