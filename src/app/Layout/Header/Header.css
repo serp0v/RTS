@@ -1,7 +1,6 @@
 .header {
   background-color: rgb(46, 49, 54);
   border-bottom: 1px solid rgb(44, 46, 50);
-  z-index: 100;
 }
 .header-container {
   height: 100px;

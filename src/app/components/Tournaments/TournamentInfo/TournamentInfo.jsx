@@ -14,6 +14,7 @@ const TournamentInfo = () => {
   const stichClickHandler = () => {
     setOpen((state) => !state);
   };
+
   return (
     <section className="main-container">
       <div className="tournament-list" style={{ margin: "2rem 0 0 0" }}>
@@ -61,6 +62,8 @@ const TournamentInfo = () => {
               </div>
             </div>
           </div>
+
+          {/* Вынести */}
           <div
             className={`tournament-more-info ${
               isOpen ? "tournament-anim" : ""
@@ -76,8 +79,11 @@ const TournamentInfo = () => {
             </div>
             <button onClick={stichClickHandler} className="stick"></button>
           </div>
+          {/* Вынести */}
         </div>
       </div>
+
+      {/* Вынести */}
       <div id="participants" className="participants-main">
         <div className="participants-box">PARTICIPANTS</div>
         <div className="participants-content">
@@ -111,6 +117,7 @@ const TournamentInfo = () => {
           </div>
         </div>
       </div>
+      {/* Вынести */}
     </section>
   );
 };

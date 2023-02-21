@@ -28,7 +28,6 @@
   color: #fff;
   font-size: clamp(17px, 1.5vw, 20px);
   border-radius: 0px 0px 25px 25px;
-  z-index: 10;
   background-color: rgb(46, 49, 54);
   transition-duration: 1s;
   transform: translateX(-40%);
