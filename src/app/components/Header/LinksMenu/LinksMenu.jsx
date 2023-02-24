@@ -4,7 +4,7 @@ import PullOut from "../../Reuse/PullOut/PullOut";
 
 import menu from "../../../../assets/menu.svg";
 
-import "./LinkMenu.css";
+import "./LinksMenu.css";
 
 const LinksMenu = () => {
   const { isOpen, toggleOpenStatus } = useOpen();
