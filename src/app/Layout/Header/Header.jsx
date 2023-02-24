@@ -7,14 +7,15 @@ import logo from "../../../assets/logo.png";
 import yt from "../../../assets/yt.svg";
 import ds from "../../../assets/ds.svg";
 import tg from "../../../assets/tg.svg";
+import tanks from "../../../assets/tanks.mp4";
 
 import "./Header.css";
 import "./Header.adaptive.css";
 
 const Header = () => {
   return (
-    <>
-      <header className="header">
+    <header className="header">
+      <div className="container-video">
         <nav className="header-container">
           <div className="logo-cont">
             <div className="logo">
@@ -54,13 +55,25 @@ const Header = () => {
               <div className="nickname">EzSolo</div>
               <div id="exit" className="exit">
                 Выйти
-              </div>
-            </div>
+              </div> 
+            </div> 
           </div> */}
         </nav>
-      </header>
-    </>
+
+        <video muted autoPlay loop>
+          <source src={tanks} type="video/mp4" />
+        </video>
+
+        <div className="play-btn">
+          <button>Play now</button>
+        </div>
+      </div>
+    </header>
   );
 };
 
 export default Header;
+
+/* 
+
+*/
