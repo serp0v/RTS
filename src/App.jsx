@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home";
 import Profile from "./pages/Profile/Profile";
 import Tournaments from "./pages/Tournaments/Tournaments";
 import Admin from "./pages/Admin/Admin";
-import Layout from "./Layout";
+import Layout from "./layout";
 import SingleTournament from "./pages/SingleTournament/SingleTournament";
 
 import "./css/reset.css";

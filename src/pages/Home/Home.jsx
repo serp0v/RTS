@@ -1,11 +1,10 @@
 import Tournament from "../../components/Reuse/Tournament/Tournament";
 import New from "../../components/Home/New/New";
 
-import showMore from "../../../assets/show-more.svg";
+import showMore from "../../assets/show-more.svg";
 
 import "./Home.css";
 import "./Home.adaptive.css";
-import { Link } from "react-router-dom";
 
 const news = [
   {

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import player from "../../../../assets/player.png";
+import player from "../../../assets/player.png";
 
 import "./Match.css";
 import "./Match.adaptive.css";
