@@ -1,5 +1,5 @@
-import Match from "../../components/Profile/Match/Match";
-import UserProfile from "../../components/Profile/UserProfile/UserProfile";
+import Match from "../../components/Match/Match";
+import UserProfile from "../../components/UserProfile/UserProfile";
 
 import "./Profile.css";
 

@@ -1,7 +1,7 @@
-import ua from "../../../assets/UA.png";
-import settings from "../../../assets/settings.png";
-import top from "../../../assets/top.png";
-import cup from "../../../assets/cup.png";
+import ua from "../../assets/UA.png";
+import settings from "../../assets/settings.png";
+import top from "../../assets/top.png";
+import cup from "../../assets/cup.png";
 
 import "./UserProfile.css";
 import "./UserProfile.adaptive.css";

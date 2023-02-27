@@ -1,5 +1,5 @@
 import { useOpen } from "../../utils/hooks";
-import PullOut from "../Reuse/PullOut/PullOut";
+import PullOut from "../PullOut/PullOut";
 
 import lang from "../../assets/language.svg";
 import russia from "../../assets/russia.svg";

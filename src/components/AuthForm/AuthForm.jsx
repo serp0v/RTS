@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
-import PullOut from "../Reuse/PullOut/PullOut";
+import PullOut from "../PullOut/PullOut";
 
 import visibleImg from "../../assets/visible.svg";
 import hiddenImg from "../../assets/hidden.svg";

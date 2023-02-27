@@ -1,5 +1,5 @@
-import Tournament from "../../components/Reuse/Tournament/Tournament";
-import New from "../../components/Home/New/New";
+import Tournament from "../../components/Tournament/Tournament";
+import New from "../../components/New/New";
 
 import showMore from "../../assets/show-more.svg";
 

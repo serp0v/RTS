@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import Tournament from "../../components/Reuse/Tournament/Tournament";
+import Tournament from "../../components/Tournament/Tournament";
 
 import "./Tournaments.css";
 import "./Tournaments.adaptive.css";

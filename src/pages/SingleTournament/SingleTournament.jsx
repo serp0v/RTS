@@ -1,5 +1,5 @@
-import Participants from "../../components/Tournaments/Participants/Participants";
-import TournamentInfo from "../../components/Tournaments/TournamentInfo/TournamentInfo";
+import Participants from "../../components/Participants/Participants";
+import TournamentInfo from "../../components/TournamentInfo/TournamentInfo";
 
 const SingleTournament = () => {
   return (

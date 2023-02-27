@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-import warning from "../../../assets/warning.svg";
-import green from "../../../assets/green-btn.svg";
-import blue from "../../../assets/blue-btn.svg";
+import Tournament from "../Tournament/Tournament";
+
+import warning from "../../assets/warning.svg";
+import green from "../../assets/green-btn.svg";
+import blue from "../../assets/blue-btn.svg";
 
 import "./TournamentInfo.css";
 import "./TournamentInfo.adaptive.css";
-import Tournament from "../../Reuse/Tournament/Tournament";
 
 const TournamentInfo = () => {
   const [isOpen, setOpen] = useState(false);
