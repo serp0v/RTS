@@ -1,8 +1,8 @@
-import { useOpen } from "../../../utils/hooks";
+import { useOpen } from "../../utils/hooks";
 import { Link } from "react-router-dom";
-import PullOut from "../../Reuse/PullOut/PullOut";
+import PullOut from "../Reuse/PullOut/PullOut";
 
-import menu from "../../../assets/menu.svg";
+import menu from "../../assets/menu.svg";
 
 import "./LinksMenu.css";
 
