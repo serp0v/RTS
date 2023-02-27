@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .new {
+    width: 85%;
+  }
+  .new-text {
+    width: 95%;
+  }
+}

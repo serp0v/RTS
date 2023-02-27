@@ -1,0 +1,58 @@
+.matches {
+  margin-top: 20px;
+  padding: 30px 15px 0 15px;
+
+  background: #393838;
+  border-radius: 15px;
+}
+.match {
+  width: 100%;
+
+  margin-bottom: 20px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #1a1c1e;
+  border-radius: 15px;
+}
+.match img {
+  width: 70px;
+  height: auto;
+  border-radius: 15px;
+}
+.player {
+  width: 30%;
+  display: flex;
+  gap: 15px;
+
+  color: #fff;
+}
+.player-nickname {
+  margin-top: 10px;
+
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+.player-type {
+  font-size: 20px;
+  color: #f6f6f6;
+  opacity: 0.56;
+}
+
+.score {
+  width: 40%;
+  text-align: center;
+  color: #dfdfdf;
+  font-size: 54px;
+  justify-self: center;
+}
+
+.player-reverted {
+  justify-self: flex-end;
+  flex-direction: row-reverse;
+  text-align-last: right;
+}

@@ -1,0 +1,20 @@
+/* Auth form */
+
+@media (max-width: 800px) {
+  .auth-btn {
+    display: none;
+  }
+  .auth-form {
+    width: 100%;
+  }
+  /* TODO: сделать форму на весь экран */
+}
+
+@media (min-width: 1440px) {
+  .auth-form label {
+    font-size: 18px;
+  }
+  .auth-btn {
+    font-size: 22px;
+  }
+}
