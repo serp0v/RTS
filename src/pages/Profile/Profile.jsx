@@ -1,4 +1,5 @@
 import Match from "../../components/Match/Match";
+import SingleTournament from "../../components/SingleTournament/SingleTournament";
 import UserProfile from "../../components/UserProfile/UserProfile";
 
 import "./Profile.css";
@@ -7,10 +8,10 @@ const matches = [
   {
     matchInfo: {
       name: "Masters Of The Sword",
-      date: "2023.28.01 - 10:00 MSK",
+      date: "2023.01.01 - 20:00 MSK",
     },
     firstPlayer: {
-      nickname: "Iamia",
+      nickname: "CoolDown",
     },
     secondPlayer: {
       nickname: "Mazu",
@@ -21,10 +22,10 @@ const matches = [
   {
     matchInfo: {
       name: "Masters Of The Sword",
-      date: "2023.28.01 - 10:00 MSK",
+      date: "2023.12.01 - 14:00 MSK",
     },
     firstPlayer: {
-      nickname: "Darathl",
+      nickname: "CoolDown",
     },
     secondPlayer: {
       nickname: "Nnanedel",
@@ -35,10 +36,10 @@ const matches = [
   {
     matchInfo: {
       name: "Masters Of The Sword",
-      date: "2023.28.01 - 10:00 MSK",
+      date: "2023.16.01 - 12:00 MSK",
     },
     firstPlayer: {
-      nickname: "Siuse",
+      nickname: "CoolDown",
     },
     secondPlayer: {
       nickname: "Comanaiam",
@@ -52,12 +53,35 @@ const matches = [
       date: "2023.28.01 - 10:00 MSK",
     },
     firstPlayer: {
-      nickname: "Xananet",
+      nickname: "CoolDown",
     },
     secondPlayer: {
       nickname: "Denone",
     },
     score: "2:2",
+    id: Math.ceil(Math.random() * 10000),
+  },
+];
+
+const tournaments = [
+  {
+    date: "2023.01.01 - 2023.02.01",
+    title: "Masters Of The Sword",
+    id: Math.ceil(Math.random() * 10000),
+  },
+  {
+    date: "2023.01.01 - 2023.02.01",
+    title: "Coming soon",
+    id: Math.ceil(Math.random() * 10000),
+  },
+  {
+    date: "2023.01.01 - 2023.02.01",
+    title: "Coming soon",
+    id: Math.ceil(Math.random() * 10000),
+  },
+  {
+    date: "2023.01.01 - 2023.02.01",
+    title: "Coming soon",
     id: Math.ceil(Math.random() * 10000),
   },
 ];
@@ -79,7 +103,11 @@ const Profile = () => {
 
         <div className="history-item">
           <h2>Турниры</h2>
-          <div className="tournaments-list"></div>
+          <div className="tournaments-list">
+            {tournaments.map((tour) => (
+              <SingleTournament data={tour} key={tour.id} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
