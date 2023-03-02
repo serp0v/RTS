@@ -1,10 +1,10 @@
-import Header from "./Header/Header";
+import HeaderContainer from "./HeaderContainer/HeaderContainer";
 import PropTypes from "prop-types";
 
 const Layout = ({ children }) => {
   return (
     <section>
-      <Header />
+      <HeaderContainer />
       <main>{children}</main>
     </section>
   );

@@ -1,7 +1,40 @@
+.history {
+  display: flex;
+  gap: 2rem;
+}
+
+.history-item {
+  width: 50%;
+  margin-bottom: 2rem;
+
+  text-align: center;
+}
+.history-item h2 {
+  margin: 1rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
 .matches-list {
-  margin-top: 20px;
-  padding: 30px 15px 0 15px;
+  padding: 30px 15px;
 
   background: #393838;
   border-radius: 15px;
+
+  position: relative;
+}
+.tournaments-list {
+  width: 100%;
+
+  padding: 30px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: #393838;
+  border-radius: 15px;
+
+  position: relative;
 }
