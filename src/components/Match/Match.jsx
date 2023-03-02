@@ -1,28 +1,21 @@
 import PropTypes from "prop-types";
-import player from "../../assets/player.png";
 
 import "./Match.css";
 import "./Match.adaptive.css";
 
 const Match = ({ data }) => {
-  const { firstPlayer, secondPlayer, score } = data;
+  const { id, matchInfo, firstPlayer, secondPlayer, score } = data;
 
   return (
     <div className="match">
-      <div className="first-player player">
-        <img src={player} alt="" />
-        <div className="player-info">
-          <h3 className="player-nickname">{firstPlayer.nickname}</h3>
-          <h4 className="player-type">{firstPlayer.type}</h4>
-        </div>
+      <div className="match-id">Match #{id}</div>
+      <div className="match-name">
+        {matchInfo.name} <br /> {matchInfo.date}
       </div>
-      <div className="score">{score}</div>
-      <div className="second-player player player-reverted">
-        <img src={player} alt="" />
-        <div className="player-info">
-          <h3 className="player-nickname">{secondPlayer.nickname}</h3>
-          <h4 className="player-type">{secondPlayer.type}</h4>
-        </div>
+      <div className="match-info">
+        <div className="player first-player">{firstPlayer.nickname}</div>
+        <div className="score">{score}</div>
+        <div className="player second-player">{secondPlayer.nickname}</div>
       </div>
     </div>
   );

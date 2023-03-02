@@ -1,5 +1,3 @@
-import ua from "../../assets/UA.png";
-import settings from "../../assets/settings.png";
 import bg from "../../assets/bolgaria.svg";
 import top from "../../assets/top.png";
 import cup from "../../assets/cup.png";

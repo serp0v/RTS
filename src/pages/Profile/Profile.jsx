@@ -5,52 +5,60 @@ import "./Profile.css";
 
 const matches = [
   {
+    matchInfo: {
+      name: "Masters Of The Sword",
+      date: "2023.28.01 - 10:00 MSK",
+    },
     firstPlayer: {
       nickname: "Iamia",
-      type: "HR/VR",
     },
     secondPlayer: {
       nickname: "Mazu",
-      type: "HR/VR",
     },
     score: "1:2",
-    id: Math.random() * 100,
+    id: Math.ceil(Math.random() * 10000),
   },
   {
+    matchInfo: {
+      name: "Masters Of The Sword",
+      date: "2023.28.01 - 10:00 MSK",
+    },
     firstPlayer: {
       nickname: "Darathl",
-      type: "HR/VR",
     },
     secondPlayer: {
       nickname: "Nnanedel",
-      type: "HR/VR",
     },
     score: "3:1",
-    id: Math.random() * 100,
+    id: Math.ceil(Math.random() * 10000),
   },
   {
+    matchInfo: {
+      name: "Masters Of The Sword",
+      date: "2023.28.01 - 10:00 MSK",
+    },
     firstPlayer: {
       nickname: "Siuse",
-      type: "HR/VR",
     },
     secondPlayer: {
       nickname: "Comanaiam",
-      type: "HR/VR",
     },
     score: "1:3",
-    id: Math.random() * 100,
+    id: Math.ceil(Math.random() * 10000),
   },
   {
+    matchInfo: {
+      name: "Masters Of The Sword",
+      date: "2023.28.01 - 10:00 MSK",
+    },
     firstPlayer: {
       nickname: "Xananet",
-      type: "HR/VR",
     },
     secondPlayer: {
       nickname: "Denone",
-      type: "HR/VR",
     },
     score: "2:2",
-    id: Math.random() * 100,
+    id: Math.ceil(Math.random() * 10000),
   },
 ];
 
