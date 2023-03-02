@@ -58,10 +58,21 @@ const Profile = () => {
   return (
     <section className="main-container">
       <UserProfile />
-      <div className="matches-list">
-        {matches.map((match) => (
-          <Match key={match.id} data={match} />
-        ))}
+
+      <div className="history">
+        <div className="history-item">
+          <h2>Матчи</h2>
+          <div className="matches-list">
+            {matches.map((match) => (
+              <Match key={match.id} data={match} />
+            ))}
+          </div>
+        </div>
+
+        <div className="history-item">
+          <h2>Турниры</h2>
+          <div className="tournaments-list"></div>
+        </div>
       </div>
     </section>
   );

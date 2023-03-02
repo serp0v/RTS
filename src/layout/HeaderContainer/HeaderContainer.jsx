@@ -10,9 +10,14 @@ import "./HeaderContainer.adaptive.css";
 const HeaderContainer = () => {
   const { pathname } = useLocation();
 
+  const isHome = pathname === "/";
+
   return (
-    <header className="header">
-      {pathname === "/" ? (
+    <header
+      className="header"
+      style={{ backgroundColor: isHome ? "inherit" : "#2E3136" }}
+    >
+      {isHome ? (
         <div className="container-video">
           <Header />
 
